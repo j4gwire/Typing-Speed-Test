@@ -11,17 +11,18 @@
     <div class="container">
         <div id="intro">
             <h1>Typing Speed Test</h1>
-            <p>Test your typing speed and accuracy!</p>
+            <p>Test your typing speed and accuracy! This web app was developed to help users improve their typing skills by providing a quick and fun way to measure typing speed and accuracy. It is ideal for anyone looking to practice and enhance their typing capabilities, from beginners to professionals.</p>
             <button id="startBtn">Start Test</button>
-        </div>
+        </div>                    
 
         <div id="test" class="hidden">
             <h2>Type the following text:</h2>
-            <div id="paragraph" class="text-box"></div>
-            <textarea id="userInput" placeholder="Start typing here..." autofocus></textarea>
+            <div id="paragraph" class="text-box" aria-live="polite"></div>
+            <textarea id="userInput" placeholder="Start typing here..." aria-label="Typing area" autofocus></textarea>
             <div id="progress-container">
                 <div id="progress-bar"></div>
             </div>
+            <div id="timer" class="timer">Time remaining: <span id="timeRemaining">60</span> seconds</div>
             <div id="results" class="hidden">
                 <h3>Results:</h3>
                 <p id="wpm"></p>
