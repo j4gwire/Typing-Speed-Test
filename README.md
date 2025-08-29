@@ -17,4 +17,4 @@ Typing Speed Test is a web based application that measures how fast users can ty
 ## How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ScribeAegis/Typing-Speed-Test.git
+   git clone https://github.com/j4gwire/Typing-Speed-Test.git
